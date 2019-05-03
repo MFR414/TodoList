@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="id.ac.polinema.todoretrofit.activities.MainActivity">
+	<item
+		android:id="@+id/action_logout"
+		android:orderInCategory="100"
+		android:title="@string/logout"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_largeTextsize"
+		android:orderInCategory="200"
+		android:title="@string/large_text_size"
+		app:showAsAction="never" />
+	<item
+		android:id="@+id/action_smallTextsize"
+		android:orderInCategory="201"
+		android:title="@string/smaller_text_size"
+		app:showAsAction="never" />
+</menu>
